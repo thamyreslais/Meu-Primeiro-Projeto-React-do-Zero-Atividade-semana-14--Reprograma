@@ -1,70 +1,21 @@
-# Getting Started with Create React App
+# Meu primeiro projeto React do zero
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+Iniciou-se o processo de criação de um projeto react entrando na pasta que eu desejava que a nova pasta fosse criada, cliquei com o mouse direito, selecionei a função 'Git bash Here'
 
-## Available Scripts
+Utilizei o comando 'yarn create react-app atividade-casa-thamyres', ao ficar pronto, rodei o comando 'code .'.
 
-In the project directory, you can run:
+Após ser aberto no VS Code, fui ao app.js e exclui da linha 8 á 19 e o comando de import de imagem (que estava entre essas linhas), testei o código desenvolvendo um <h1>Hello World</h1>, fui ao git bash que estava aberto e utilizei o comando 'yarn start' abrindo no navegador o código.
 
-### `yarn start`
+Abri a pasta public, deletei os arquivos: Favicon.ico; logo192.png; logo512.png; manifest.json e robots.txt. Dentro de index.html  retiro os links de favicon, logo e manifest, além dos comentários.
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+Na pasta SRC, apaguei: setupTests.js; reportWebVitals.js; logo.svg e App.text.js.   Após apagar, deu uma quebra no código, fui até o arquivo index.js e apago a linha que contém 'reportWebVitals();' linha 14 á 17, necessitando retirar o import da linha 5 também. 
 
-The page will reload if you make edits.\
-You will also see any lint errors in the console.
+Desenvolvi um arquivo que simulava o JSON, com informações de alguns personagens dos X-men, criando no SRC uma nova parta com o nome Data, e desenvolvendo um arquivo dentro da mesma com o nome 'database.js', importando o simulador de JSON para a mesma e incluindo um 'export default' ao final.
 
-### `yarn test`
+Em uma nova pasta com o nome 'components' criei o arquivo 'Title.jsx' para criar um componente título, com a função sendo redenrizada pelo props, fui ao arquivo App.js, importei o arquivo Title.jsx e chamei a função texto para exibir na tela 'Meu Primeiro Projeto React do Zero'
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+Na parta 'components' criei um arquivo chamado 'Cards.jsx' importei o arquivo database, criei um componente para mapear os dados do arquivo para retornar em elementos que devem ser renderizados na tela, com três chaves e valores: Nome, Poder e Imagem.
 
-### `yarn build`
+Importei o arquivo 'Cards.jsx' no App.js e chamei. 
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
-
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `yarn eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
-
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
-
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `yarn build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+Por fim, criei um repositório no GitHub e subi o projeto.
